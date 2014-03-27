@@ -5,6 +5,11 @@
       <a data-role="button" data-bind="click: close" data-align="right" data-icon="close"></a>
     </div>
   </div>
-  <input type="text" class="full" data-bind="value: text" >
+  <ul data-role="listview" data-style="inset">
+    <li>
+      Name: 
+      <input type="text" data-bind="value: text" >
+    </li>
+  </ul>
   <a data-bind="click: add" data-role="button" class="full">Add</a>
 </div>

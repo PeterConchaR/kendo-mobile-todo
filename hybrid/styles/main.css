@@ -2,14 +2,11 @@
       display: block;
       margin: .6em .8em;
       font-size: 1.2em;
+      text-align: center;
 }
 
-a.full {
-  text-align: center;
-}
-
-input.full, textarea.full {
-  display: block;
+textarea {
+  resize: none;
 }
 
 /* Custom Icons */
@@ -24,8 +21,4 @@ input.full, textarea.full {
 .km-drawer-button:before
 { 
   content: "\E077"; 
-}
-
-.hidden {
-  display: none;
 }
