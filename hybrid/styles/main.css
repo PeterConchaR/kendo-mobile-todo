@@ -1,0 +1,31 @@
+.full {
+      display: block;
+      margin: .6em .8em;
+      font-size: 1.2em;
+}
+
+a.full {
+  text-align: center;
+}
+
+input.full, textarea.full {
+  display: block;
+}
+
+/* Custom Icons */
+
+.km-close:after,
+.km-close:before
+{
+    content: "\e038";
+}
+
+.km-drawer-button:after,
+.km-drawer-button:before
+{ 
+  content: "\E077"; 
+}
+
+.hidden {
+  display: none;
+}
